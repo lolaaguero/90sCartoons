@@ -1,0 +1,61 @@
+[1mdiff --git a/build.html b/build.html[m
+[1mindex 4ef18d0..1f9dc94 100644[m
+[1m--- a/build.html[m
+[1m+++ b/build.html[m
+[36m@@ -5,6 +5,7 @@[m
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">[m
+     <title>90s Cartoons</title>[m
+     <link rel="stylesheet" href="estilos.css">[m
+[32m+[m[32m    <link rel="icon" href="img/logocartoon.png">[m
+ </head>[m
+ <body>[m
+     [m
+[1mdiff --git a/detalle.html b/detalle.html[m
+[1mindex 7a3cade..b5a69a4 100644[m
+[1m--- a/detalle.html[m
+[1m+++ b/detalle.html[m
+[36m@@ -5,6 +5,7 @@[m
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">[m
+     <title>90s Cartoons - KND</title>[m
+     <link rel="stylesheet" href="estilos.css">[m
+[32m+[m[32m    <link rel="icon" href="img/logocartoon.png">[m
+ </head>[m
+ <body>[m
+ [m
+[1mdiff --git a/index.html b/index.html[m
+[1mindex b62772d..71e5ac8 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -5,7 +5,7 @@[m
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">[m
+     <title>90s Cartoons</title>[m
+     <link rel="stylesheet" href="estilos.css">[m
+[31m-    <link rel="stylesheet" href="estilos2.css">[m
+[32m+[m[32m    <link rel="icon" href="img/logocartoon.png">[m
+ </head>[m
+ [m
+ <body>[m
+[1mdiff --git a/iniciarsesion.html b/iniciarsesion.html[m
+[1mindex 38a5d4a..882166f 100644[m
+[1m--- a/iniciarsesion.html[m
+[1m+++ b/iniciarsesion.html[m
+[36m@@ -5,6 +5,7 @@[m
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">[m
+     <title>90s Cartoons - Iniciar Sesión</title>[m
+     <link rel="stylesheet" href="estilos.css">[m
+[32m+[m[32m    <link rel="icon" href="img/logocartoon.png">[m
+ </head>[m
+ [m
+ <body class="fondoforms">[m
+[1mdiff --git a/registrarse.html b/registrarse.html[m
+[1mindex 1c94342..44f932c 100644[m
+[1m--- a/registrarse.html[m
+[1m+++ b/registrarse.html[m
+[36m@@ -5,6 +5,7 @@[m
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">[m
+     <title>90s Cartoons - Registrarse</title>[m
+     <link rel="stylesheet" href="estilos.css">[m
+[32m+[m[32m    <link rel="icon" href="img/logocartoon.png">[m
+ </head>[m
+ [m
+ <body class="fondoforms">[m

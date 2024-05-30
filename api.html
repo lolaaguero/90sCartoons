@@ -1,14 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>90s Cartoons</title>
+    <title>90s Cartoons - Random API</title>
     <link rel="stylesheet" href="estilos.css">
     <link rel="icon" href="img/logocartoon.png">
 </head>
+
 <body>
-    
+
+    <script src="callApi.js"></script>
+
     <div class="cabecera">
         <header>
             <div class="cabeceralogo">
@@ -24,32 +27,35 @@
                 <div class="botonesitem"><a href="iniciarsesion.html" class="login">Iniciar Sesión</a></div>
             </div>
         </header>
-    
+
         <nav>
             <ul class="grid-menu">
                 <li class="grid-menu-item1"><a href="build.html" class="categorias">Nickelodeon</a></li>
                 <li class="grid-menu-item2"><a href="build.html" class="categorias">Cartoon Network</a></li>
                 <li class="grid-menu-item3"><a href="build.html" class="categorias">Disney Chanel</a></li>
                 <li class="grid-menu-item4"><a href="build.html" class="categorias">Fox Kids</a></li>
-                <li class="grid-menu-item5"><a href="build.html" class="categorias">Destacados</a></li>
+                <li class="grid-menu-item5"><a href="#destacados" class="categorias">Destacados</a></li>
             </ul>
         </nav>
     </div>
 
-    <div class="build">
-        <div class="build-container">
-            <script src="https://cdn.lordicon.com/lordicon.js" class="build-icon"></script>
-                <a href="javascript:history.back(-1);" title="Ir la página anterior">
-                    <lord-icon
-                        src="https://cdn.lordicon.com/tfwhvbiq.json"
-                        trigger="hover"
-                        colors="primary:#e16539,secondary:#303030"
-                        style="width:100px;height:100px">
-                    </lord-icon>
-                </a>
-            <h3 class="build-msg">Sitio en<br>construcción</h2>
-        </div>
-    </div>
+    <main>
+        <section>
+            <div id="movieList" class="apiList-container"></div>
+        </section>
+        
+    </main>
+
+    <footer>
+        <div class="separador"></div>
+        <ul class="flex-foot">
+            <li class="flex-foot-item"><a href="build.html" class="foot">Términos y condiciones</a></li>
+            <li class="flex-foot-item"><a href="build.html" class="foot">Ayuda</a></li>
+            <li class="flex-foot-item"><a href="build.html" class="foot">Preguntas frecuentes</a></li>
+        </ul>
+        <p style="text-align: center; font-size: small;">© 2024 90s Cartoons • Todos los derechos reservados.</p>
+    </footer>
 
 </body>
+
 </html>

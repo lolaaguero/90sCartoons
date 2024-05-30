@@ -5,9 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>90s Cartoons - Iniciar Sesión</title>
     <link rel="stylesheet" href="estilos.css">
+    <link rel="icon" href="img/logocartoon.png">
 </head>
 
 <body class="fondoforms">
+
+    <script src="login.js"></script>
 
     <header class="cabeceralogo2">
         <a href="index.html" class="logo">
@@ -23,15 +26,15 @@
                 </div>
                 
                 <div class="divform">
-                    <input type="email" placeholder="E-mail" class="formulario"><br>
+                    <input type="email" placeholder="E-mail" class="formulario" id="username" required><br>
                 </div>
                 <div class="divform">
-                    <input type="password" placeholder="Contraseña" class="formulario"><br>
+                    <input type="password" placeholder="Contraseña" class="formulario" id="pass" required><br>
                 </div>
                 
                 
                 <div>
-                    <input type="submit" value="Iniciar Sesión" class="enviar">   
+                    <button type="submit" class="enviar" id="btn-login" onclick="login()">Iniciar Sesión</button>
                 </div>
                 <div>
                     <p style="color: #F0DFC8;">¿No tienes cuenta? <a href="registrarse.html" class="foot" style="font-size: medium;">Resgistrate</a></p>
