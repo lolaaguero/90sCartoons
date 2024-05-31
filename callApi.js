@@ -1,7 +1,9 @@
+let my_key = config.api_key;
+
 const cargarInfoApi = async() => {
 
     try{
-        const respuesta = await fetch('https://api.themoviedb.org/3/movie/popular?language=es&api_key=a4935a46c3220becfbadee41a0faafd6');
+        const respuesta = await fetch('https://api.themoviedb.org/3/movie/popular?language=es&api_key=' + my_key);
 
         console.log(respuesta);
 
